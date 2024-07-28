@@ -54,8 +54,8 @@ app.post("/submit", (req, res) => {
             <body>
                 <div class="container">
                     <h1 class="heading">Here is your QR Code.</h1>
-                    <img src="/QR-image.png" alt="qr-code">
-                    <a href="/QR-image.png" download="QR-image.png"><button>Download Image</button></a>
+                    <img src="${qrCodeImageSrc}" alt="qr-code">
+                    <a href="${qrCodeImageSrc}" download="QR-image.png"><button>Download Image</button></a>
                 </div>
             </body>
             </html>
