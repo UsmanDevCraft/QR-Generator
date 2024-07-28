@@ -1,0 +1,19 @@
+{
+  "name": "qr-generator",
+  "version": "1.0.0",
+  "description": "This is a qr-generator nodejs app.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "usman-awan",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "qr-image": "^3.2.0"
+  }
+}
